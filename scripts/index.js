@@ -10,11 +10,19 @@ function main(){
 		buttonText = $("#slider-description-button-text"),
 		descriptionTexts = [
 			description.html(),
+<<<<<<< HEAD
 			"Vote for daily rewards!",
 			"I can't put this into words. This server is just. Amazing. Incredible and just amazing..",
 			"Join us noob",
 			"Shh, Rob smells. :)",
 			"Owner is EmeraldDudeMC (ROB)"
+=======
+			"-It's fuuun and well developed!- =Joe=,
+			"-One of the best servers I have ever played on!- =Nolan=",
+			"Vote to get the most amazing rewards you can ever ask for!",
+			"Join us noob, IP: EmeraldCraftMC.ddns.us",
+			"Psst, Rob smells. Hehe"
+>>>>>>> origin/master
 		],
 		buttonTexts = [
 			buttonText.html(),
