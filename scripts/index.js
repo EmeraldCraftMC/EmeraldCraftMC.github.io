@@ -10,19 +10,19 @@ function main(){
 		buttonText = $("#slider-description-button-text"),
 		descriptionTexts = [
 			description.html(),
-			"Dummy text",
-			"Dummy text",
-			"Dummy text.",
-			"Dummy text.",
-			"Dummy text"
+			"Vote for daily rewards!",
+			"I can't put this into words. This server is just. Amazing. Incredible and just amazing..",
+			"Join us noob",
+			"Shh, Rob smells. :)",
+			"Owner is EmeraldDudeMC (ROB)"
 		],
 		buttonTexts = [
 			buttonText.html(),
-			"TEXT",
-			"TEXT",
-			"TEXT",
-			"TEXT",
-			"Text"
+			"Vote",
+			"Join Us",
+			"EmeraldCraftMC>DDNS.US",
+			"He does. :3",
+			"I love you!"
 		],
 		x = 0, startX = 0,
 		delay = 5000,
