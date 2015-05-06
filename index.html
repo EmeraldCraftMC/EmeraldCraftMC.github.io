@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>EmeraldCraft</title>
+		<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link href='../EC/styles/index.css' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="../EC/images/logo.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header-underlay"></div>
+			<header>
+				<div id="branding">
+					<div id="logo" class="clickable"></div>
+				</div>
+				<nav id="main-nav">
+					<ul>
+						<li><a href="#" target="_blank">Download</a></li>
+						<li><a href="#" target="_blank">Forum</a></li>
+						<li><a href="#" target="_blank">Resources</a></li>
+						<li><a href="#" target="_blank">About</a></li>
+						<li><a href="#" target="_blank">GitHub</a></li>
+					</ul>
+				</nav>
+				<div id="buttons">
+					<button>Login</button><button>Sign Up</button>
+				</div>
+			</header>
+			<div id="slider">
+				<div id="slider-overlay"></div>
+				<ul id="slider-list">
+					<li class="sunrise"></li>
+					<li class="island"></li>
+					<li class="ship"></li>
+					<li class="forest"></li>
+					<li class="cliff"></li>
+					<li class="moon"></li>
+				</ul>
+				<div id="slider-description-container">
+					<p id="slider-description">Dummy text</p>
+				</div>
+				<div id="slider-description-button">
+					<span id="slider-description-button-text">Button Text</span>
+				</div>
+				<ul id="slider-circles"></ul>
+				<button class="slider-button left clickable" onclick="slide(-1);">
+					<div class="slider-arrow left"></div>
+				</button>
+				<button class="slider-button right clickable" onclick="slide();">
+					<div class="slider-arrow right"></div>
+				</button>
+			</div>
+			<div id="content">
+				<div class="content-box" id="intro">
+					<div class="content-table" id="intro-table">
+						<div class="content-table-cell" id="intro-table-image-cell">
+							<div id="image"></div>
+						</div>
+						<div class="content-table-cell" id="intro-table-text-cell">
+							<h2>Header</h2>
+							<p>Dummy text. For Paragraph</p>
+						</div>
+					</div>
+				</div>
+				<div class="content-box" id="news">
+					<h2>News</h2>
+					<p>No news yet.</p>
+				</div>
+				<div class="content-box" id="sponsors">
+					<h2>Sponsors</h2>
+					<p>Temporary.</p>
+				</div>
+			</div>
+			<footer>
+				<span>&copy; 2015 EmeraldCraft</span>
+			</footer>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="../EC/scripts/index.js"></script>
+	</body>
+</html>
